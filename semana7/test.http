@@ -1,0 +1,21 @@
+###Obtener reportes
+GET http://localhost:3000/reportes
+Accept: application/json
+
+###
+
+### Crear reporte
+POST http://localhost:3000/reportes
+Content-Type: application/json
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+### otro reporte post
+post http//localhost:3000/reportes 
+{
+    "tipo": "Ambiente",
+      "descripcion": "Acumulación de residuos en una zona comunitaria"
+      }
+}
